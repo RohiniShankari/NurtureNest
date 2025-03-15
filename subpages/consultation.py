@@ -1,15 +1,3 @@
-# import streamlit as st
-
-# def show_consultation_page():
-#     st.title("Doctor Consultation 🏥")
-#     st.write("Book an online consultation with a specialist doctor.")
-
-#     name = st.text_input("Your Name")
-#     email = st.text_input("Email Address")
-#     symptoms = st.text_area("Describe your symptoms")
-
-#     if st.button("Request Consultation"):
-#         st.success("Your request has been sent! A doctor will contact you soon.")
 
 import streamlit as st
 
