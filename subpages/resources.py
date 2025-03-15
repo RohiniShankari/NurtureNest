@@ -1,16 +1,5 @@
 import streamlit as st
 from clusters import cluster0,cluster1,cluster2
-# def show_resources_page():
-#     st.title("Health Resources 📚")
-#     resources = {
-#         0: "✅ Healthy lifestyle tips: [Read more](https://www.who.int/health-topics/healthy-lifestyle)",
-#         1: "⚠️ Managing BP & sugar: [Learn here](https://www.diabetes.org/healthy-living)",
-#         2: "🚨 Emergency maternal care: [Find hospitals](https://www.marchofdimes.org/)"
-#     }
-#     selected_cluster = st.selectbox("Choose Cluster", [0, 1, 2])
-#     st.subheader("Recommended Resources:")
-#     st.markdown(resources[selected_cluster], unsafe_allow_html=True)
-
 
 def show_resources_page():
     st.title("📚 Maternal Health Resources")
